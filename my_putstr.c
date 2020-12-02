@@ -7,7 +7,7 @@
 
 void my_putchar(char c);
 
-int my_putstr(char const *str)
+void my_putstr(char const *str)
 {
     int i = 0;
 
@@ -16,5 +16,4 @@ int my_putstr(char const *str)
         my_putchar(str[i]);
         i++;
     }
-    return (0);
 }

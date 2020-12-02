@@ -7,7 +7,7 @@
 
 void my_putchar(char c);
 
-int my_putnbr(int nb)
+void my_putnbr(int nb)
 {
     int high_nb;
 
@@ -22,5 +22,4 @@ int my_putnbr(int nb)
         my_putnbr(nb/10);
         my_putchar(48 + nb%10);
     }
-    return (0);
 }

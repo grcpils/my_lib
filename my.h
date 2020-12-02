@@ -11,10 +11,10 @@
 #include <stdarg.h>
 
 void my_putchar(char x);
+void my_putnbr(int nb);
 void my_swap(int *a, int *b);
-int my_isneg(int nb);
-int my_putnbr(int nb);
-int my_putstr(char const *str);
+void my_isneg(int nb);
+void my_putstr(char const *str);
 int my_strlen(char const *str);
 int my_getnbr(char const *str);
 int my_getnbr(char const *str);

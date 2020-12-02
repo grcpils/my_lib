@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2019
 ** my_strcmp
 ** File description:
-** Compare to string.
+** Compare two string.
 */
 
 #include "my.h"
