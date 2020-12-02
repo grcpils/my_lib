@@ -13,7 +13,7 @@ int my_str_isalpha(char const *str)
     int str_len_diff = 0;
     int i = 0;
 
-    for (i ; str[i] != '\0' ; i++) {
+    for (; str[i] != '\0' ; i++) {
         if (str[i] < 123 && str[i] > 96)
             str_len_diff++;
         else if (str[i] < 91 && str[i] > 64)

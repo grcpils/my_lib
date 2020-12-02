@@ -18,7 +18,7 @@ int my_strcmp(char const *s1, char const *s2)
         return -1;
     if (my_strlen(s1) != my_strlen(s2))
         return 1;
-    for (x ; s1[x] != '\0' && s2[x] != '\0' ; x++) {
+    for (; s1[x] != '\0' && s2[x] != '\0' ; x++) {
         if (s1[x] != s2[x])
             return 1;
     }

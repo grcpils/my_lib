@@ -13,7 +13,7 @@ int my_str_isnum(char const *str)
     int str_len_diff = 0;
     int i = 0;
 
-    for (i ; str[i] != '\0' ; i++) {
+    for (; str[i] != '\0' ; i++) {
         if (str[i] < 58 && str[i] > 46)
             str_len_diff++;
     }

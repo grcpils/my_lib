@@ -19,12 +19,12 @@ char *my_getchar(char const *str)
 
     if (str[i] == '-'){
         i = 1;
-        for (i ; str[i] != '\0' ; i++) {
+        for (; str[i] != '\0' ; i++) {
             result[i - 1] = str[i];
         }
         result[i] = '\0';
     } else {
-        for (i ; str[i] != '\0' ; i++)
+        for (; str[i] != '\0' ; i++)
             result[i] = str[i];
         result[i] = '\0';
         return (result);

@@ -12,7 +12,7 @@
 
 int my_tag_match(char chr);
 
-int my_printf(char *s, ...)
+void my_printf(char *s, ...)
 {
     int nbfunction = 14;
     va_list args;
@@ -44,4 +44,5 @@ int my_tag_match(char chr)
         if (chr == str[i])
             return (i);
     }
+    return (-1);
 }

@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2019
 ** my_str_str
 ** File description:
-** This is a str str function made by student
+** This is a str str
 */
 
 #include <stdio.h>

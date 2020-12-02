@@ -14,7 +14,7 @@ char *my_dec_to_bin(long dec)
     unsigned long res = 0;
     int i = 0;
 
-    for (i ; dec != 0 ; i++) {
+    for (; dec != 0 ; i++) {
         res = dec % 2;
         dec = dec / 2;
         str[i] = res + '0';

@@ -16,7 +16,7 @@ char *my_dec_to_hex(long dec, int size)
     unsigned long res = 0;
     int i = 0;
 
-    for (i ; dec != 0 ; i++) {
+    for (; dec != 0 ; i++) {
         res = dec % 16;
         dec = dec / 16;
         if (size == 1)
@@ -41,4 +41,5 @@ char hex(int l, int size)
             if (i == l)
                 return (hexh[i]);
     }
+    return (-1);
 }

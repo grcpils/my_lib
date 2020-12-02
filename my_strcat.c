@@ -15,7 +15,7 @@ char *my_strcat(char *dest, char const *src)
     int a = 0;
     char *str = malloc(sizeof(char) * i + l + 1);
 
-    for (a ; dest[a] != '\0' ; a++)
+    for (; dest[a] != '\0' ; a++)
         str[a] = dest[a];
     for (int b = 0 ; src[b] != '\0' ; b++) {
         str[a] = src[b];

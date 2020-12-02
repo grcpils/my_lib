@@ -14,7 +14,7 @@ char *my_dec_to_oct(long dec)
     unsigned long res = 0;
     int i = 0;
 
-    for (i ; dec != 0 ; i++) {
+    for (; dec != 0 ; i++) {
         res = dec % 8;
         dec = dec / 8;
         str[i] = res + '0';

@@ -12,7 +12,7 @@ void my_putchar_er(char c)
     write(2, &c, 1);
 }
 
-int my_puterror(char const *str)
+void my_puterror(char const *str)
 {
     int i = 0;
 
@@ -21,5 +21,4 @@ int my_puterror(char const *str)
         my_putchar_er(str[i]);
         i++;
     }
-    return (0);
 }
