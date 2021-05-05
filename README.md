@@ -6,7 +6,7 @@
 | `void` | `my_isneg(int nb);` | Get `int` and print `N` if `nb` is negative, `P` if `nb` positive or `null` |
 | `void` | `my_putstr(char const *str);` | Get `*str` and print this in terminal |
 | `int` | `my_strlen(char const *str);` | Get `*str` and return their lenght |
-| `int` | `mu_getnbr(char const *str);` | Get `*str` and transform them in `int` |
+| `int` | `my_getnbr(char const *str);` | Get `*str` and transform them in `int` |
 | `int` | `my_compute_power_rec(int nb, int p);` | Return `nb` raised by the power of `p` |
 | `int` | `my_compute_square_root(int nb);` | Return the square root of `nb` |
 | `int` | `my_is_prime(int nb);` | Return `1` if `nb` is prime and `0` if not |
@@ -22,7 +22,7 @@
 | `char*` | `my_getchar(char const *str);` | Get `*str` and transform them in `int` |
 | `void` | `my_puterror(char const *str);` | Get `*str` and print this in terminal on error channel |
 | `char*` | `my_realloc(char *str, int size);` | Add `size` alloc in `*str` |
-| `char*` | my_dec_to_oct(long dec);` | Convert `dev` (decimal) on octal |
+| `char*` | `my_dec_to_oct(long dec);` | Convert `dev` (decimal) on octal |
 | `char*` | `my_dec_to_bin(long dec);` | Convert `dec` (decimal) on binary |
 | `char*` | `my_dec_to_hex(long dec, int size);` | Convert `dev` (decimal) on hexadecimal. `size` can get two value : `1` for hexadecimal lowercase / `2` for hexadeciaml uppercase |
 | `char**` | `my_str_to_word_array(char *str);` | Get `str` and slip each words in array |
